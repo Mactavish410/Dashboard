@@ -1,0 +1,38 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.crypto_main {
+  @include block33;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.crypto_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.crypto_indicators {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 0.2vw;
+}
+
+.crypto_pagination {
+  cursor: pointer;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: #6dfc6b;
+}
+
+.crypto_pagination_active {
+  cursor: pointer;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: aqua;
+}

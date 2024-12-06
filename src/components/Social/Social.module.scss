@@ -1,0 +1,16 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.social_main {
+  @include block33;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: #fff;
+    svg {
+      width: 2vw;
+      height: 2vw;
+    }
+  }
+}

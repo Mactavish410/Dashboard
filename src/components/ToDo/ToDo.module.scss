@@ -1,0 +1,5 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.todo_main {
+  @include block33;
+}

@@ -1,0 +1,20 @@
+// Импорты
+
+// Переменные
+
+$main-bg: #242529;
+$block-bg: #37373f;
+
+$main-text-color: #e8e3e3;
+$font-size: 1vw;
+
+// Миксины
+
+@mixin block33 {
+  box-sizing: border-box;
+  // margin: 5px;
+  height: 100%;
+  padding: 10px;
+  background-color: $block-bg;
+  border-radius: 1vw;
+}

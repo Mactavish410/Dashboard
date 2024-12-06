@@ -1,0 +1,49 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.wether_main {
+  @include block33;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wether_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h2 {
+    font-size: 2em;
+  }
+  h4 {
+    font-size: 0.7em;
+  }
+  svg {
+    font-size: 7em;
+  }
+}
+
+.wether_right {
+  // margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  h3 {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 5em;
+  }
+  div {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+.wether_info {
+  margin-top: 10px;
+  margin-left: auto;
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

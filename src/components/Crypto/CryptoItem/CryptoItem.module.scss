@@ -1,0 +1,17 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.cryptoItem_main {
+  font-size: 1.3vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  div {
+    display: flex;
+    gap: 5px;
+  }
+}
+
+.cryptoItem_name {
+  cursor: pointer;
+}

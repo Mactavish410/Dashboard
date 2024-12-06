@@ -1,0 +1,16 @@
+@use "/src/assets/styles/styles.scss" as *;
+
+.header_main {
+  width: 100%;
+  margin: 0.5vw 0;
+  nav {
+    ul {
+      height: 3vw;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      li {
+      }
+    }
+  }
+}
